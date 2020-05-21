@@ -1,0 +1,55 @@
+# Datapane config - see https://docs.datapane.com/tutorials/deploying-a-script#configuration
+script: calculator.ipynb
+# Script name (a combination of lower case letters, numbers, and dashes - must be unique to user)
+name: startup_calculator_2
+
+# Script title
+title: Startup Burn Calculator 
+# Script parameters
+parameters: 
+  - name: current_cash
+    description: The amount of cash you have in the bank
+    type: integer
+    required: True
+    default: 100000
+    min: 0
+  - name: forecast_length_years
+    description: The number of years to forecast
+    type: integer
+    required: True
+    min: 1
+    max: 10
+    default: 2
+  - name: weekly_growth
+    type: integer
+    required: True
+    description: Your current weekly growth rate (in %)
+    min: 0
+    max: 100
+  - name: initial_revenue
+    type: integer
+    required: True
+    description: Your current revenue
+    min: 0
+  - name: monthly_burn
+    type: integer
+    min: 0
+    required: True
+    description: Your current monthly burn
+  - name: cash_injection
+    description: Misc cash injection amount (i.e. R&D, fundraising)
+    default: 0
+    type: integer
+  - name: cash_injection_offset 
+    type: integer
+    default: 1
+
+## Additional files to include and exlcude (can use glob syntax)
+# include:
+# -
+# exclude:
+# -
+
+## Python packages required for the script
+#requirements:
+#  -
