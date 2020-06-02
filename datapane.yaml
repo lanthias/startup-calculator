@@ -1,8 +1,8 @@
 # Datapane config - see https://docs.datapane.com/tutorials/deploying-a-script#configuration
 script: calculator.ipynb
 # Script name (a combination of lower case letters, numbers, and dashes - must be unique to user)
-name: startup_calculator_2
-
+name: startup_calculator
+repo: https://github.com/datapane/gallery/tree/master/startup-calculator
 # Script title
 title: Startup Burn Calculator 
 # Script parameters
