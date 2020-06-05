@@ -1,5 +1,5 @@
 [![Run on Datapane !](https://img.shields.io/badge/Datapane-Run%20script-1abc9c.svg)](https://datapane.com/leo/scripts/startup_calculator/)
-[![View on Datapane !](https://img.shields.io/badge/Datapane-View%20sample%20report-ff69b4.svg)](https://datapane.com/leo/reports/startup_finance_report_0e7760f2/)
+[![View on Datapane !](https://img.shields.io/badge/Datapane-View%20sample%20report-ff69b4.svg)](https://datapane.com/leo/reports/startup_finance_report/)
 
 # Startup calculator
 This script forecasts your future finances based on current cash position, growth rate, revenue, and costs.
